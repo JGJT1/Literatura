@@ -5,15 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /*
 #ff4178
+#D596CB
 #d5597c
 #aa6377
-#806069
 #554b4e
 */
 *{
     padding: 0;
     margin: 0;
-    font-family: cursive;  
+    font-family: cursive;
+    color: #000;
 }
 header{
     display: flex;
@@ -21,7 +22,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-image: url("montanhas_rosa.jpg");
+    background-image: url("imagens/montanhas_rosa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 100%;
@@ -37,25 +38,92 @@ header p{
 h1{
     font-family: "Mali", cursive;
 }
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    width: 61%;
+    text-align: justify;
+    margin: 24px 12px;
+
+}
+.TPM_JM{
+    position: inherit;
+    height:250px;
+}
 #TPM_JM{
     background-image: url("tudo_pode_mudar.jpeg");
     background-size: contain;
     height: 300px;
     background-repeat: no-repeat;
 }
-.content{
-    display: flex;
-    justify-content: space-between;
-}
-.texto{
-    text-align: right;
-    width: 70%;
-    text-align: justify;
-    margin-top: 40px;
-    margin-right: 10px;
 
+
+#PxT{
+    background-image: url("imagens/tablet-notebook.jpg");
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 250px
 }
-.TPM_JM{
-    position: inherit;
-    height:250px;
+#PxT .texto{
+    display: block;
+    width: 100%;
+    -webkit-text-stroke-color: #ffffffa4;
+    -webkit-text-stroke-width: 0.5px;
+}
+#PxT h2{
+    text-align: center;
+    font-size: 36px;
+}
+#PxT p{
+    margin-top: 24px;
+    font-size: 20px; 
+}
+
+
+#selecao{
+    background-color: #26a4af;
+}
+#selecao h2{
+    font-size: 30px;
+    text-align: center;
+}
+#selecao p{
+    font-size: 20px;
+    margin-top: 35px;
+}
+#selecao img{
+    height: 250px;
+}
+
+
+#estilha{
+    background-color: #dedede;
+}
+#estilha h2{
+    text-align: center;
+    font-size: 30px;
+}
+#estilha p{
+    font-size: 20px;
+    margin-top: 35px;
+}
+#estilha img{
+    height: 300px;
+}
+
+
+#assim_acaba{
+    background-color: #9b287d;
+}
+#assim_acaba h2{
+    font-size: 36px;
+    text-align: center;
+}
+#assim_acaba p{
+    font-size: 20px;
+    margin-top: 35px;
 }
