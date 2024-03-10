@@ -124,35 +124,18 @@ h1{
        background-color: #7e9b28;
 }
 #collen h2{
-    text-align: center;
-    font-size: 36px;
     margin-top: 30px;
 }
 #collen p{
     margin-top: 50px;
-    font-size: 20px;
 }
 
 #lado_feio{
     background: #9b2828;
 }
-#lado_feio h2{
-    text-align: center;
-    font-size: 30px;
-}
-#lado_feio p{
-    font-size: 20px;
-}
 
 #mil_beijos{
     background-color: #ff4178;
-}
-#mil_beijos h2{
-    text-align: center;
-    font-size: 30px;
-}
-#mil_beijos p{
-    font-size: 20px;
 }
 
 
