@@ -65,7 +65,7 @@ h1{
 #TPM_JM{
     background-image: url("tudo_pode_mudar.jpeg");
     background-size: contain;
-    height: 300px;
+    height: auto;
     background-repeat: no-repeat;
 }
 
