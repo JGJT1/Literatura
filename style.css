@@ -44,22 +44,29 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+.content h2{
+    text-align: center;
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+    margin: 20px;
+}
 .texto{
-    width: 61%;
+    width: 67%;
     text-align: justify;
     margin: 24px 12px;
 
 }
-.TPM_JM{
-    position: inherit;
-    height:250px;
-}
+
 #TPM_JM{
     background-image: url("tudo_pode_mudar.jpeg");
     background-size: contain;
     height: 300px;
     background-repeat: no-repeat;
 }
+
+
 
 
 #PxT{
@@ -75,24 +82,15 @@ h1{
     -webkit-text-stroke-width: 0.5px;
 }
 #PxT h2{
-    text-align: center;
     font-size: 36px;
 }
-#PxT p{
-    margin-top: 24px;
-    font-size: 20px; 
-}
+
 
 
 #selecao{
     background-color: #26a4af;
 }
-#selecao h2{
-    font-size: 30px;
-    text-align: center;
-}
 #selecao p{
-    font-size: 20px;
     margin-top: 35px;
 }
 #selecao img{
@@ -103,27 +101,59 @@ h1{
 #estilha{
     background-color: #dedede;
 }
-#estilha h2{
-    text-align: center;
-    font-size: 30px;
-}
 #estilha p{
-    font-size: 20px;
     margin-top: 35px;
 }
+#estilha .texto{
+    margin-bottom: 0;
+}
 #estilha img{
-    height: 300px;
+    height: 302px;
 }
 
 
 #assim_acaba{
     background-color: #9b287d;
 }
-#assim_acaba h2{
-    font-size: 36px;
-    text-align: center;
-}
 #assim_acaba p{
     font-size: 20px;
     margin-top: 35px;
 }
+
+#collen{
+       background-color: #7e9b28;
+}
+#collen h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+#collen p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#lado_feio{
+    background: #9b2828;
+}
+#lado_feio h2{
+    text-align: center;
+    font-size: 30px;
+}
+#lado_feio p{
+    font-size: 20px;
+}
+
+#mil_beijos{
+    background-color: #ff4178;
+}
+#mil_beijos h2{
+    text-align: center;
+    font-size: 30px;
+}
+#mil_beijos p{
+    font-size: 20px;
+}
+
+
+
