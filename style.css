@@ -85,11 +85,14 @@ body{
 #PxT .texto{
     display: block;
     width: 100%;
-    -webkit-text-stroke-color: #ffffffa4;
+    -webkit-text-stroke-color: #ffffffc0;
     -webkit-text-stroke-width: 0.5px;
 }
 #PxT h2{
     font-size: 36px;
+}
+#PxT p{
+    font-weight: 700;
 }
 
 
