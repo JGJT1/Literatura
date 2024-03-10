@@ -66,11 +66,14 @@ body{
 }
 
 #TPM_JM{
-    height: 500px;
+    height: auto;
+}
+#TPM_JM p{
+    height: 100%;
 }
 #TPM_JM img{
     width: 200px;
-    height: 100%;
+    height: auto;
 }
 
 #PxT{
@@ -137,9 +140,10 @@ body{
     margin-top: 50px;
 }
 #collen img{
-    width: 200px;
+    width: 150px;
     height: auto;
     margin: 20px;
+    margin-right: 25px;
 }
 
 #lado_feio{
