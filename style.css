@@ -127,7 +127,8 @@ body{
 }
 
 #collen{
-       background-color: #7e9b28;
+    background-color: #7e9b28;
+    height: auto;
 }
 #collen h2{
     margin-top: 30px;
@@ -137,6 +138,8 @@ body{
 }
 #collen img{
     width: 200px;
+    height: auto;
+    margin: 20px;
 }
 
 #lado_feio{
