@@ -63,10 +63,7 @@ h1{
 }
 
 #TPM_JM{
-    background-image: url("tudo_pode_mudar.jpeg");
-    background-size: contain;
     height: auto;
-    background-repeat: no-repeat;
 }
 
 
@@ -76,7 +73,7 @@ h1{
     background-image: url("imagens/tablet-notebook.jpg");
     background-size: cover;
     background-position: 50% 60%;
-    height: 250px
+    height: auto;
 }
 #PxT .texto{
     display: block;
