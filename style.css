@@ -65,6 +65,13 @@ body{
 
 }
 
+#TPM_JM{
+    height: 500px;
+}
+#TPM_JM img{
+    width: 200px;
+    height: 100%;
+}
 
 #PxT{
     background-image: url("imagens/tablet-notebook.jpg");
