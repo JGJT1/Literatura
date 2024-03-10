@@ -135,6 +135,9 @@ body{
 #collen p{
     margin-top: 50px;
 }
+#collen img{
+    max-width: 220px;
+}
 
 #lado_feio{
     background: #9b2828;
